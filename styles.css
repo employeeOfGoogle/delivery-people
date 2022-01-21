@@ -1,0 +1,75 @@
+body {
+  font-family: 'BMHANNAPro';
+  margin: 0;
+  padding: 0;
+  background-color: rgb(156, 245, 175);;
+  height: 400%;
+}
+
+.first_container{
+  background: rgb(71, 187, 233) fixed;
+  padding: 5px;
+}
+
+.second_container {
+
+}
+
+.question {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(90, 44, 255);
+}
+
+.logo {
+  width: 500px;
+  background: url(https://i.ibb.co/17y1ph0/23795024-1606638182692820-1675214701801471719-n.png) fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 100px;
+  color: white;
+}
+
+.slideText {
+  font-size: 30px;
+  animation: slide 5s normal;
+  margin: 30px 10px;
+  position: absolute;
+}
+
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .logo {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@keyframes slide{
+  from {
+    opacity: 0;
+    left: -400px;
+  }
+
+  to {
+    opacity: 1;
+    left: 0px;
+  }
+}
